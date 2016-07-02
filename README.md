@@ -13,3 +13,14 @@ Git Workflow:
     - git add <affected files>
     - 'git commit -m "merged master"'
 - Repeat as milestones are achieved.
+
+To do:
+Weather Page:
+- Carolina to map out html structure and create header with nav toolbar.
+- Nurbek to create section below nav bar for searching with social media icons.
+- Nick to finish layout and add any additional styling.
+
+Unit Converter Page:
+- Nick to start by writing JavaScript logic for handling unit conversions while Nurbek establishes page layout in html and creates form for user input.
+- Carolina to write Javascript linking to html while working with Nick to obtain appropriate IDs and display content on page.
+- Nurbek to finish Javascript logic by managing previous user entries for list implementation while working with Carolina to display list results once submitted.

@@ -9,8 +9,8 @@ body {
 main {
   display:flex;
   flex-direction: column;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-top: -40px;
   box-shadow: 0 3px 7px 0 black, 0 5px 20px 0 black;
 }
@@ -37,4 +37,102 @@ li{
   padding-right: 50px;
   font-size: 12px;
   color: grey;
+}
+
+form{
+  display: inline-block;
+}
+
+div:nth-child(2){
+  font-weight: bold;
+}
+
+div > img{
+  width: 15px;
+  height: 15px;
+}
+
+#info{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#infoRight{
+display:flex;
+flex-direction: column;
+margin-left: 300px;
+}
+
+#infoLeft{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+#pBold{
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+#pPlain{
+  font-size: 13px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#location{
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: underline;
+  color: blue;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+
+}
+
+#forecast{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#city{
+  font-size: 20px;
+  color: blue;
+  text-decoration: underline;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#share{
+  background-color: white;
+}
+
+#share{
+  display: flex;
+  flex-direction: row;
+}
+
+#share > p {
+  color: blue;
+  text-decoration: underline;
+}
+
+#shareIcon{
+  margin-left: 15px;
+}
+
+#sharePic{
+  margin-top: 10px;
+}
+
+#icons{
+  margin-left: 10px;
+  margin-top: 15px;
 }
