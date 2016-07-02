@@ -5,5 +5,67 @@
     <link rel='stylesheet' type='text/css' href='weather.css'>
   </head>
   <body>
+    <main>
+      <header>
+        <section id='nLeft'>
+          <img src="img/header_noaa.png">
+          <img src="img/header_nws.png">
+        </section>
+        <section id='nRight'>
+            <img id ='inHeader' src="img/header_doc.png">
+        </section>
+      </header>
+      <nav>
+        <ul>
+        <li>HOME</li>
+        <li>FORECAST</li>
+        <li>PAST WEATHER</li>
+        <li>INFORMATION</li>
+        <li>EDUCATION</li>
+        <li>NEWS</li>
+        <li>SEARCH</li>
+        <li>ABOUT</li>
+      </nav>
+      <article>
+      <section id='info'>
+        <div id=infoLeft>
+          <form>
+            <input type='text' name='search'>
+            <input type='submit' value='GO'>
+          </form>
+          <p id='location'>View Location Examples</p>
+          <p id='forecast'>Your local forcast office is</p>
+          <p id='city'>Seattle, WA<p>
+        </div>
+        <div id='infoRight'>
+          <p id='pBold'>Rain, thunderstorms developing from southern Plains to mid-Atlantic</p>
+          <p id='pPlain'>A slow-moving storm system will be the focus for rain and thunderstorms from the southern Plains across to the Southeast and Mid-Atlantic
+            States early this week. Locally heavy rainfall could lead to isolated flash flooding, especially in the mid-Mississippi River Valley on Tuesday.
+            Isolated severe thunderstorms will be possible Tuesday near the Gulf Coast associated with this same storm system. Read More...</p>
+        </div>
+      </section>
+      <section id='share'>
+        <p>En Espanol</p>
+        <div id='shareIcon'>
+          <img id='sharePic' src='img/share.png'>
+          </div>
+          <p>Share</p>
+          <div id='icons'>
+            <img src='img/fb.png'>
+            <img src='img/twitter.png'>
+            <img src='img/email.png'>
+            <img src='img/print.png'>
+            <img src='img/gmail.png'>
+          </div>
+        </section>
+        <section id='coord'>
+          <p>Current conditions at</p>
+          <p>Seattle, Seattle Boeing Field (KBFI)</p>
+          <p><b>Lat:</b>47.57<sup>o</sup>N &nbsp; <b>Lon:</b>-122.41<sup>o</sup>W &nbsp; <b>Elev:</b>16ft</p>
+        </section>
+      </article>
+
+    </main>
+
   </body>
 </html>
