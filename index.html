@@ -3,29 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Unit Converter</title>
-
+    <link rel='stylesheet' type='text/css' href='style.css'>
   </head>
   <body>
-
-         <fieldset id='measurement'>
-         Measurement: <input type="number" name="Measurement" step=".001" id="userValue" required>
-        <input type="button" name="Submit" value="Submit" id="Submit">
-        </fieldset>
-        <fieldset id="to">
-          <legend>To</legend>
-          <input type="radio" name="System" value="English" id="English" checked="checked"> English<br>
-            <input type="radio" name="System" value="Metric" id="Metric"> Metric<br>
-        </fieldset>
-
-        <fieldset id="unit">
-          <legend>Units</legend>
-          <input type="radio" name="Units" value="In/Cm" id="0" checked="checked"> inches to/from centimeters<br>
-          <input type="radio" name="Units" value="fluid ounces to/from milliliters" id="1"> fluid ounces to/from milliliters
-          <br>
-          <input type="radio" name="Units" value="In/Cm" id="2"> miles to/from kilometers<br>
-          <input type="radio" name="Units" value="In/Cm" id="3"> pounds to/from kilograms<br>
-          <input type="radio" name="Units" value="In/Cm" id="4"> standard shit-ton to metric shit-ton  <br>
-        </fieldset>
+    <form id="Submit">
+      <fieldset id='measurement'>
+       Measurement: <input type="number" step=".001" id="userValue" min="0" required>
+      <input type="submit" name="Submit" value="Submit"/>
+      </fieldset>
+    </form>
+      <fieldset id="to">
+        <legend>To</legend>
+        <input type="radio" name="System" value="English" id="English" checked="checked"> English<br>
+          <input type="radio" name="System" value="Metric" id="Metric"> Metric<br>
+      </fieldset>
+      <fieldset id="unit">
+        <legend>Units</legend>
+        <input type="radio" name="Units" value="In/Cm" id="0" checked="checked"> inches to/from centimeters<br>
+        <input type="radio" name="Units" value="fluid ounces to/from milliliters" id="1"> fluid ounces to/from milliliters
+        <br>
+        <input type="radio" name="Units" value="In/Cm" id="2"> miles to/from kilometers<br>
+        <input type="radio" name="Units" value="In/Cm" id="3"> pounds to/from kilograms<br>
+        <input type="radio" name="Units" value="In/Cm" id="4"> standard shit-ton to metric shit-ton  <br>
+      </fieldset>
+      <input type="button" id="clear" value="Clear List">
+      <ul id="list">
+      </ul>
+      <a href="weather.html">Link to Weather Page</a>
     <script src="app.js"></script>
   </body>
 </html>
