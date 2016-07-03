@@ -48,7 +48,7 @@ div:nth-child(2){
   font-weight: bold;
 }
 
-div > img{
+.icon{
   width: 15px;
   height: 15px;
 }
@@ -142,4 +142,19 @@ margin-left: 300px;
   background-color: #ededed;
   padding: 0;
   margin: 0;
+}
+#moon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+#fcImg {
+width:140px;
+height: 140px;
+margin: 8px;
+}
+#left2 {
+  font-size: 26px;
+  text-align: left;
 }
